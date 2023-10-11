@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white; /* Change the background color to white */
+}
+
+.container {
+    padding: 3px;
+    border: 3px solid rgb(222, 222, 222); /* Light gray border */
+    border-radius: 10px;
+    max-width: 41vh;
+    height: 51vh;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(242, 242, 242); /* Light gray background */
+}
+
+#calc-el {
+    margin: 10px 0px;
+    padding: 5px 5px;
+    width: 38.1vh;
+    height: 5vh;
+    border: 1px solid black; /* You may keep the border color if needed */
+    border-radius: 6px;
+    margin-left: 2px;
+    background-color: white; /* Change the background color to white */
+    color: black; /* Change the text color to black */
+    font-size: 27px;
+}
+
+#btn {
+    margin-left: 2.5px;
+    margin-top: 5px;
+    width: 9.2vh;
+    height: 7vh;
+    border: 1px solid black; /* You may keep the border color if needed */
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgb(242, 242, 242); /* Light gray background */
+    color: black; /* Change the text color to black */
+    font-size: 25px;
+}
+
+
+.darktheme{
+    margin-left: 90px;
+    margin-top: 25px;
+    width: 9.2vh;
+    height: 7vh;
+    border: 1px solid black; /* You may keep the border color if needed */
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgb(17, 17, 17);
+    color: rgb(255, 255, 255); /* Change the text color to black */
+    font-size: 25px;
+}
